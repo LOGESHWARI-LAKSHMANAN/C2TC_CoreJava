@@ -20,7 +20,25 @@ public class condition {
 		    	System.out.println("e is ten");
 		    else
 		    	System.out.println("e is not ten");	
-
+		 //switch statement
+		    int course =2 ;
+		    switch (course) {
+		    case 1:
+		    	System.out.println("CSE");
+		    	break;
+		    case 2:
+		    	System.out.println("ECE");
+		    	break;
+		    case 3:
+		    	System.out.println("EEE");
+		    	break;
+		    case 4:
+		    	System.out.println("MECH");
+		    	break;
+		    default:
+		    	System.out.println("the course not found");
+		    	break;
+	}
 	}
 
 }
